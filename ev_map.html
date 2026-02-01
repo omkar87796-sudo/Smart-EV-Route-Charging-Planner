@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7a4ef7423df97b637a49432ea70bfb68 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7a4ef7423df97b637a49432ea70bfb68" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7a4ef7423df97b637a49432ea70bfb68 = L.map(
+                "map_7a4ef7423df97b637a49432ea70bfb68",
+                {
+                    center: [19.076, 72.8777],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b9909b9f3e75e1bd7982015aaa21cd23 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_b9909b9f3e75e1bd7982015aaa21cd23.addTo(map_7a4ef7423df97b637a49432ea70bfb68);
+        
+    
+            var marker_ed3326b83e0de68c58229f214a3dda80 = L.marker(
+                [19.076, 72.8777],
+                {
+}
+            ).addTo(map_7a4ef7423df97b637a49432ea70bfb68);
+        
+    
+            var icon_9539c7b725e23b645f563ab13c547ccf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ecb2baae4fb4853112c3857aaf0b9a0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dab15c2e617d8d8347e2411f70929ba8 = $(`<div id="html_dab15c2e617d8d8347e2411f70929ba8" style="width: 100.0%; height: 100.0%;">Your Location</div>`)[0];
+                popup_ecb2baae4fb4853112c3857aaf0b9a0d.setContent(html_dab15c2e617d8d8347e2411f70929ba8);
+            
+        
+
+        marker_ed3326b83e0de68c58229f214a3dda80.bindPopup(popup_ecb2baae4fb4853112c3857aaf0b9a0d)
+        ;
+
+        
+    
+    
+                marker_ed3326b83e0de68c58229f214a3dda80.setIcon(icon_9539c7b725e23b645f563ab13c547ccf);
+            
+    
+            var marker_6defcc441601849a4c7d5eaaace343df = L.marker(
+                [19.0957956, 72.92601089999994],
+                {
+}
+            ).addTo(map_7a4ef7423df97b637a49432ea70bfb68);
+        
+    
+            var icon_88246a01f99e323a56509e3ac489f30c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "flash",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e8658318cb0ac354e47a74653236d442 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba297b5d76f14359275c97be8843c2c1 = $(`<div id="html_ba297b5d76f14359275c97be8843c2c1" style="width: 100.0%; height: 100.0%;">Tata Power Receiving Station | None kW</div>`)[0];
+                popup_e8658318cb0ac354e47a74653236d442.setContent(html_ba297b5d76f14359275c97be8843c2c1);
+            
+        
+
+        marker_6defcc441601849a4c7d5eaaace343df.bindPopup(popup_e8658318cb0ac354e47a74653236d442)
+        ;
+
+        
+    
+    
+                marker_6defcc441601849a4c7d5eaaace343df.setIcon(icon_88246a01f99e323a56509e3ac489f30c);
+            
+    
+            var marker_e08cc5dbab9f998372776cb205716620 = L.marker(
+                [19.1166, 72.82927],
+                {
+}
+            ).addTo(map_7a4ef7423df97b637a49432ea70bfb68);
+        
+    
+            var icon_bcd402a7dec784848c6c5179b357e00b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "flash",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_73f9fda048e78dd373cc22ab88ab961e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21d8b7b8a42d148e5ce79890dc8dd61c = $(`<div id="html_21d8b7b8a42d148e5ce79890dc8dd61c" style="width: 100.0%; height: 100.0%;">Andheri West | 120 kW</div>`)[0];
+                popup_73f9fda048e78dd373cc22ab88ab961e.setContent(html_21d8b7b8a42d148e5ce79890dc8dd61c);
+            
+        
+
+        marker_e08cc5dbab9f998372776cb205716620.bindPopup(popup_73f9fda048e78dd373cc22ab88ab961e)
+        ;
+
+        
+    
+    
+                marker_e08cc5dbab9f998372776cb205716620.setIcon(icon_bcd402a7dec784848c6c5179b357e00b);
+            
+    
+            var marker_2eb59a8e1d36e66c097274eb2d311008 = L.marker(
+                [19.140006053456133, 72.85344382844949],
+                {
+}
+            ).addTo(map_7a4ef7423df97b637a49432ea70bfb68);
+        
+    
+            var icon_f1fb327c63b737a8aba04f1f02f8837d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "flash",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_415663492154e52a64cbe1be383fdb5c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e5d813a4269f90fbeedcdac40c16bff = $(`<div id="html_4e5d813a4269f90fbeedcdac40c16bff" style="width: 100.0%; height: 100.0%;">Mira Road  | None kW</div>`)[0];
+                popup_415663492154e52a64cbe1be383fdb5c.setContent(html_4e5d813a4269f90fbeedcdac40c16bff);
+            
+        
+
+        marker_2eb59a8e1d36e66c097274eb2d311008.bindPopup(popup_415663492154e52a64cbe1be383fdb5c)
+        ;
+
+        
+    
+    
+                marker_2eb59a8e1d36e66c097274eb2d311008.setIcon(icon_f1fb327c63b737a8aba04f1f02f8837d);
+            
+    
+            var marker_e62f4b1e0b7e4b8ea0f10aaf45b3e15e = L.marker(
+                [19.139950824152606, 72.85197359742608],
+                {
+}
+            ).addTo(map_7a4ef7423df97b637a49432ea70bfb68);
+        
+    
+            var icon_d3a7be95d521a7920296a0afc3298f8e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "flash",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ecb7e93cd70700ea0fc1da251b711bc6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_485ead0e00799801bad5984d11f0781f = $(`<div id="html_485ead0e00799801bad5984d11f0781f" style="width: 100.0%; height: 100.0%;">Balasaheb Thackeray Flyover | None kW</div>`)[0];
+                popup_ecb7e93cd70700ea0fc1da251b711bc6.setContent(html_485ead0e00799801bad5984d11f0781f);
+            
+        
+
+        marker_e62f4b1e0b7e4b8ea0f10aaf45b3e15e.bindPopup(popup_ecb7e93cd70700ea0fc1da251b711bc6)
+        ;
+
+        
+    
+    
+                marker_e62f4b1e0b7e4b8ea0f10aaf45b3e15e.setIcon(icon_d3a7be95d521a7920296a0afc3298f8e);
+            
+</script>
+</html>
